@@ -1,0 +1,29 @@
+// 1
+let orderStatus = ''
+if (res.data.status == '1') {
+    orderStatus = '待付款'
+} else if (res.data.status == '2') {
+    orderStatus == '待发货'
+} else if （res.data.status == '3'）{
+orderStatus == '已完成'
+
+//---->
+let orderStatus
+let map = { '1': '待付款', '2': '待发货', '3': '已完成'}
+orderStatus = map[res.data.status]
+
+// 2
+for(var x=0;x<a.length;x++) 
+{ 
+     alert(a[x]) 
+} 
+
+//---->
+
+for(var x in a) 
+{ 
+     alert(a[x]) 
+} 
+
+// 3
+
